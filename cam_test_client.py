@@ -43,7 +43,7 @@ parser = argparse.ArgumentParser()
 my_ip = get_ip_address()
 #my_ip = '172.17.0.2'
 parser.add_argument('--ip', default=my_ip, type=str)
-parser.add_argument('--port', default='8090', type=str, help="port number for communicate")
+parser.add_argument('--port', default='8080', type=str, help="port number for communicate")
 parser.add_argument('--headpose_mode', default='lite', type=str, help="lite | normal")
 parser.add_argument('--face_model', default='./model/hopenet/mmod_human_face_detector.dat', type=str, help='Path of DLIB face detection model.')
 parser.add_argument('--action_crop', default=True, type=bool, help='use crop img in action model')
