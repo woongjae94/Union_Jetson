@@ -16,7 +16,7 @@ import torch
 import torch.nn as nn
 from torchvision import transforms
 import torch.backends.cudnn as cudnn
-from torch.autograd import Variable
+from torch.autograd import Variablemodel
 import torch.nn.functional as F
 import torchvision
 
